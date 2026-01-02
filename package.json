@@ -25,12 +25,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/lyria-playground.git"
+    "url": "https://github.com/luka-loehr/lyria-playground.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/lyria-playground/issues"
+    "url": "https://github.com/luka-loehr/lyria-playground/issues"
   },
-  "homepage": "https://github.com/yourusername/lyria-playground#readme",
+  "homepage": "https://github.com/luka-loehr/lyria-playground#readme",
   "dependencies": {
     "@google/genai": "^1.34.0",
     "dotenv": "^17.2.3",

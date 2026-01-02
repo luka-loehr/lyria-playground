@@ -25,7 +25,7 @@ A beautiful terminal-based playground for Google's Lyria RealTime music generati
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/lyria-playground.git
+   git clone https://github.com/luka-loehr/lyria-playground.git
    cd lyria-playground
    ```
 
