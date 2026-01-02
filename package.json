@@ -1,0 +1,50 @@
+{
+  "name": "lyria-playground",
+  "version": "1.0.0",
+  "description": "A beautiful terminal-based playground for Google's Lyria RealTime music generation model",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel index.js -o dist/index.js",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lyria",
+    "music",
+    "generation",
+    "ai",
+    "gemini",
+    "realtime",
+    "cli",
+    "terminal",
+    "music-generation",
+    "google-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lyria-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/lyria-playground/issues"
+  },
+  "homepage": "https://github.com/yourusername/lyria-playground#readme",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "dotenv": "^17.2.3",
+    "ink": "^6.6.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "speaker": "^0.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5"
+  }
+}
